@@ -1,0 +1,75 @@
+/* Main container */
+.ibovespa-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title */
+.ibovespa-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Chart Container */
+.ibovespa-chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.ibovespa-footer {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Animation effects */
+canvas {
+    transition: transform 0.3s ease-in-out;
+}
+
+canvas:hover {
+    transform: scale(1.05);
+}
+
+/* Responsidade */
+@media (max-width: 768px) {
+    .ibovespa-container {
+        padding: 15px;
+    }
+    .ibovespa-title {
+        font-size: 20px;
+    }
+    .ibovespa-chart-container {
+        height: 300px;
+    }
+}
+.ibovespa-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.ibovespa-info p {
+    margin: 10px 0;
+    color: #333;
+    line-height: 1.5;
+}
+.ibovespa-info strong {
+    color: #007BFF;
+}
+
+
